@@ -1,0 +1,198 @@
+{
+    "firstState": "RigPreparation",
+    "samples": {
+        "Casing": [
+            57600,
+            73800,
+            70200,
+            68400,
+            71999,
+            69299,
+            32400,
+            19800,
+            125999,
+            69299,
+            16200,
+            95400,
+            39599,
+            70200
+        ],
+        "Done": [
+            864000
+        ],
+        "Flowback": [
+            4320000,
+            13910400,
+            12528000,
+            5443200,
+            12096000,
+            9676800,
+            8294400,
+            10972800,
+            15724800
+        ],
+        "Fracking": [
+            518400,
+            350400,
+            360000,
+            540000,
+            457920,
+            340200,
+            282763
+        ],
+        "HorizontalDrilling": [
+            146700,
+            250200,
+            147599,
+            143100,
+            132300,
+            302400,
+            204299,
+            130500,
+            140400,
+            65700,
+            270899,
+            165600,
+            158399,
+            150299
+        ],
+        "MillOut": [
+            172800,
+            172800,
+            216000,
+            216000,
+            328320,
+            243000,
+            164945
+        ],
+        "RigPreparation": [
+            592200,
+            34199,
+            78300,
+            47699,
+            118800,
+            44999,
+            47699,
+            59400,
+            39599,
+            77399,
+            30600,
+            95400,
+            37800,
+            62100
+        ],
+        "TripOut": [
+            42299,
+            38700,
+            43200,
+            37800,
+            35100,
+            125100,
+            31499,
+            90000,
+            42299,
+            36899,
+            27900,
+            32400,
+            44999,
+            116100
+        ],
+        "VerticalDrilling": [
+            21600,
+            42299,
+            71100,
+            46800,
+            59400,
+            77399,
+            461700,
+            65700,
+            44100,
+            134099,
+            46800,
+            108000,
+            64800,
+            83700
+        ]
+    },
+    "stateDurations": {
+        "count": {
+            "Casing": 14,
+            "Flowback": 9,
+            "Fracking": 7,
+            "HorizontalDrilling": 14,
+            "MillOut": 7,
+            "RigPreparation": 14,
+            "TripOut": 14,
+            "VerticalDrilling": 14
+        },
+        "max": {
+            "Casing": 125999,
+            "Flowback": 15724800,
+            "Fracking": 540000,
+            "HorizontalDrilling": 302400,
+            "MillOut": 328320,
+            "RigPreparation": 592200,
+            "TripOut": 125100,
+            "VerticalDrilling": 461700
+        },
+        "mean": {
+            "Casing": 62871.07142857143,
+            "Flowback": 10329600.0,
+            "Fracking": 407097.5714285714,
+            "HorizontalDrilling": 172028.2142857143,
+            "MillOut": 216266.42857142858,
+            "RigPreparation": 97585.28571428571,
+            "TripOut": 53163.92857142857,
+            "VerticalDrilling": 94821.21428571429
+        },
+        "min": {
+            "Casing": 16200,
+            "Flowback": 4320000,
+            "Fracking": 282763,
+            "HorizontalDrilling": 65700,
+            "MillOut": 164945,
+            "RigPreparation": 30600,
+            "TripOut": 27900,
+            "VerticalDrilling": 21600
+        },
+        "std": {
+            "Casing": 29085.847588089684,
+            "Flowback": 3789088.502529335,
+            "Fracking": 98320.37083578212,
+            "HorizontalDrilling": 63432.46309165069,
+            "MillOut": 57276.20002484204,
+            "RigPreparation": 144589.4519439456,
+            "TripOut": 32188.827240959734,
+            "VerticalDrilling": 109409.25460165156
+        }
+    },
+    "stateTransitionProbabilities": {
+        "Casing": {
+            "Fracking": 1.0
+        },
+        "Done": {
+            "Done": 1.0
+        },
+        "Flowback": {
+            "Done": 1.0
+        },
+        "Fracking": {
+            "MillOut": 1.0
+        },
+        "HorizontalDrilling": {
+            "TripOut": 1.0
+        },
+        "MillOut": {
+            "Flowback": 1.0
+        },
+        "RigPreparation": {
+            "VerticalDrilling": 1.0
+        },
+        "TripOut": {
+            "Casing": 1.0
+        },
+        "VerticalDrilling": {
+            "HorizontalDrilling": 1.0
+        }
+    }
+}

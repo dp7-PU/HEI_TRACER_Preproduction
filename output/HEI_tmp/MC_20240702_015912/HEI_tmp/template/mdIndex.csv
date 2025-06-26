@@ -1,0 +1,79 @@
+modelID,implCategory,implClass,modelReadableName,modelCategory,modelEmissionCategory
+Compressor.json,MajorEquipment,MEETCompressor,Compressor,,
+Compressor.json,Emitter,EmpiricalFlowImmediateProduction,Blowdown Event,TRANSIENT EVENT,VENTED
+Compressor.json,Emitter,SpecificLeaksProduction,Compressor Blowdown Vent Leak,COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,LeakProduction,Compressor Component Leak,COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,PneumaticEmitterProduction,Compressor Pneumatic Emissions,PNEUMATIC EMISSION,VENTED
+Compressor.json,Emitter,MEETCombustionEmitter,Driver Exhaust,EXHAUST,COMBUSTION
+Compressor.json,Emitter,SpecificLeaksProduction,Compressor Dry Seal Large Emitter,COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,EmpiricalFlowProduction,Compressor Dry Seal Vent (OP),VENT,VENTED
+Compressor.json,Emitter,SpecificLeaksProduction,Compressor Rod Packing Large Emitter,COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,SpecificLeaksProduction,Compressor Rod Packing Vent (NOD),COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,SpecificLeaksProduction,Compressor Rod Packing Vent (NOP),COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,SpecificLeaksProduction,Compressor Rod Packing Vent (OP),VENT,VENTED
+Compressor.json,Emitter,SpecificLeaksProduction,Compressor Wet Seal Large Emitter,COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,EmpiricalFlowProduction,Compressor Wet Seal Vent (OP),VENT,VENTED
+Compressor.json,Emitter,SpecificLeaksProduction,Compresor Single-Unit Vent Large Emitter,COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,SpecificLeaksProduction,Compressor Single-Unit Vent Leak,COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,SpecificLeaksProduction,Leak On Compressor Starter Vent,COMPONENT LEAK,FUGITIVE
+Compressor.json,Emitter,ImmediateStateBasedEmitterProduction,Start Event,TRANSIENT EVENT,VENTED
+ContinuousPneumatics.json,MajorEquipment,MEETContinuousPneumatics,Pneumatic Controller,,
+ContinuousPneumatics.json,Emitter,StateBasedEmitterProduction,Continuous Pneumatic Emissions,EMISSION,VENTED
+ContinuousPneumatics.json,Emitter,StateBasedEmitterProduction,Continuous Abnormal Pneumatic Emissions,EMISSION,VENTED
+ContinuousSeparator.json,MajorEquipment,MEETContinuousSeparator2,Continuous Separator,,
+ContinuousSeparator.json,Emitter,LeakProduction,Separator Component Leak,COMPONENT LEAK,FUGITIVE
+ContinuousSeparator.json,Emitter,PneumaticEmitterProduction,Separator Pneumatic Emissions,PNEUMATIC EMISSION,VENTED
+CycledWell.json,MajorEquipment,MEETWellCycledProduction,Wellhead with cycled production,,
+CycledWell.json,Emitter,StateBasedEmitterProduction,Completion,COMPLETION,VENTED
+CycledWell.json,Emitter,LeakProduction,Wellhead Component Leak,COMPONENT LEAK,FUGITIVE
+CycledWell.json,Emitter,PneumaticEmitterProduction,Wellhead Pneumatic Emissions,PNEUMATIC EMISSION,VENTED
+Dehydrator.json,MajorEquipment,MEETLeakContainer,Glycol Dehydrator,,
+Dehydrator.json,Emitter,LeakProduction,Dehydrator Component Leaks,COMPONENT LEAK,FUGITIVE
+Dehydrator.json,Emitter,EmpiricalFlowProduction,Dehydrator Still Vent,VENT,VENTED
+Dehydrator.json,Emitter,PneumaticEmitterProduction,Dehydrator Pneumatic Emissions,PNEUMATIC EMISSION,VENTED
+DumpingSeparator.json,MajorEquipment,MEETDumpingSeparator,Dumping Separator,,
+DumpingSeparator.json,Emitter,LeakProduction,Separator Component Leak,COMPONENT LEAK,FUGITIVE
+DumpingSeparator.json,Emitter,PneumaticEmitterProduction,Separator Pneumatic Emissions,PNEUMATIC EMISSION,VENTED
+Facility.json,Facility,MEETFacility,Facility,,
+FFDumpService.json,MEETService,MEETFFDumpService,Fluid Flow Dump,,
+FFLink.json,MEETService,MEETFFLink,Fluid Flow links,,
+FixedSource.json,MajorEquipment,MEETFixedSource,Fixed Source,,
+Flare.json,MajorEquipment,MEETFlare,Flare,,
+Flare.json,Emitter,LeakProduction,Flare Component Leak,COMPONENT LEAK,FUGITIVE
+Flare.json,Emitter,CombustedEmitterFF,Flared Gas Operating,FLARED VENT,COMBUSTION
+Flare.json,Emitter,CombustedEmitterFF,Flared Gas Malfunction,FLARED VENT,FUGITIVE
+Flare.json,Emitter,CombustedEmitterFF,Unflared Gas from Flare,FLARED VENT,FUGITIVE
+GenericStateMachine.json,MajorEquipment,MEETGenericStateMachine,Fixed Source,,
+Heater.json,MajorEquipment,MEETHeater,Heaters,,
+Heater.json,Emitter,CombustedEmitterFF,Heater operating,FLARED VENT,COMBUSTION
+Heater.json,Emitter,CombustedEmitterFF,Heater malfunctioning,FLARED VENT,COMBUSTION
+IntermittentPneumatics.json,MajorEquipment,MEETIntermittentPneumatics,Pneumatic Controller,,
+IntermittentPneumatics.json,Emitter,StateBasedEmitterProduction,Continuous Pneumatic Emissions,EMISSION,VENTED
+IntermittentPneumatics.json,Emitter,StateBasedEmitterProduction,Continuous Abnormal Pneumatic Emissions,EMISSION,VENTED
+IntermittentPneumatics.json,Emitter,StateBasedEmitterProduction,Continuous Abnormal Pneumatic Emissions,EMISSION,VENTED
+MiscCompressorStation.json,MajorEquipment,MEETLeakContainer,Misc Equipment On Compressor Station,,
+MiscCompressorStation.json,Emitter,LeakProduction,Leaks On Other Equipment On Compressor Station,COMPONENT LEAK,FUGITIVE
+MiscCompressorStation.json,Emitter,PneumaticEmitterProduction,Misc Pneumatic Emissions On Compressor Station,PNEUMATIC EMISSION,VENTED
+MiscCompressorStation.json,Emitter,SpecificLeaksProduction,Compressor Station Common Vent Leak,COMPONENT LEAK,FUGITIVE
+MiscCompressorStation.json,Emitter,SpecificLeaksProduction,Compressor Station Common Vent Large Emitter,COMPONENT LEAK,FUGITIVE
+MiscCompressorStation.json,Emitter,SpecificLeaksProduction,Compressor Station Components Large Emitter,COMPONENT LEAK,FUGITIVE
+MiscWellpad.json,MajorEquipment,MEETLeakContainer,Misc Equipment On Wellpad,,
+MiscWellpad.json,Emitter,LeakProduction,Leaks On Misc Equipment On Wellpad,COMPONENT LEAK,FUGITIVE
+MiscWellpad.json,Emitter,PneumaticEmitterProduction,Misc Pneumatic Emissions On Wellpad,PNEUMATIC EMISSION,VENTED
+MiscWellpad.json,Emitter,SpecificLeaksProduction,Wellpad Common Vent Leak,COMPONENT LEAK,FUGITIVE
+MiscWellpad.json,Emitter,SpecificLeaksProduction,Wellpad Common Vent Large Emitter,COMPONENT LEAK,FUGITIVE
+MiscWellpad.json,Emitter,SpecificLeaksProduction,Wellpad components large emitter,COMPONENT LEAK,FUGITIVE
+Probe.json,MajorEquipment,MEETProbe,Fluid Flow probe,,
+TankBattery.json,MajorEquipment,MEETBattery,Tank Battery,,
+TankBattery.json,Emitter,MEETFFEmitter,Tank Vents Large Emitter,OVERPRESSURE EMITTER,FUGITIVE
+TankBattery.json,Emitter,LeakProduction,Tank Battery Component Leak,COMPONENT LEAK,FUGITIVE
+TankBattery.json,Emitter,SpecificLeaksProduction,Tank Thief Hatch Leak,COMPONENT LEAK,FUGITIVE
+TankBattery.json,Emitter,SpecificLeaksProduction,Tank Battery Vent Leak,COMPONENT LEAK,FUGITIVE
+TankBattery.json,Emitter,SpecificLeaksProduction,Tank Battery Vent Large Emitter,COMPONENT LEAK,FUGITIVE
+TankBattery.json,Emitter,SpecificLeaksProduction,Tank Thief Hatch Large Emitter,COMPONENT LEAK,FUGITIVE
+TankBattery.json,Emitter,PneumaticEmitterProduction,Tank Pneumatic Emissions,PNEUMATIC EMISSION,VENTED
+TankBattery.json,Emitter,CombustedEmitterFF,Fluid flow based emitter,TANK VENT,FUGITIVE
+Well.json,MajorEquipment,MEETWellContinuousProduction,Wellhead with constant production,,
+Well.json,Emitter,StateBasedEmitterProduction,Completion,COMPLETION,VENTED
+Well.json,Emitter,LeakProduction,Wellhead Component Leak,COMPONENT LEAK,FUGITIVE
+Well.json,Emitter,PneumaticEmitterProduction,Wellhead Pneumatic Emissions,PNEUMATIC EMISSION,VENTED

@@ -1,0 +1,15 @@
+{
+  "inputDir": "input",
+  "outputDir": "output",
+
+  "stateDurationFileTempl": "{inputDir}/DurationFiles/state_duration_distributions_V0.xlsx",
+  "emissionFactorTempl": "{inputDir}/EmissionFiles/state_emission_factor_v0.xlsx",
+
+  "GSMFileTempl": "{outputDir}/GSM/HEI_GSM.json",
+  "plotOutputTempl": "{outputDir}/plotsHEI.html",
+  "comparisonOutputTempl": "{outputDir}/comparisonHEI_{mcRun}.csv",
+
+  "emissionTempl": "{outputDir}/emissions.csv",
+  "emissionSummaryTempl": "{outputDir}/emissionSummary.csv",
+  "boxplotOutputTempl": "{outputDir}/organics.png"
+}

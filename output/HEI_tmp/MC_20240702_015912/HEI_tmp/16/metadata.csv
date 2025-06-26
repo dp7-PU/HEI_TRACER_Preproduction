@@ -1,0 +1,20 @@
+equipmentType,facilityID,unitID,emitterID,latitude,longitude,implCategory,implClass,modelID,modelCategory,modelSubcategory,modelEmissionCategory,modelReadableName,equipmentCount,mcRunNum
+MEETFacility,test_fac,,,0,0,Facility,MEETFacility,Facility.json,,,,Facility,,16
+MEETGenericStateMachine,test_fac,Well_1,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_2,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_3,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_4,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_5,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_6,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_7,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_8,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_9,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_10,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_11,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_12,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_13,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_14,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_15,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_16,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_17,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
+MEETGenericStateMachine,test_fac,Well_18,,0,0,MajorEquipment,MEETGenericStateMachine,GenericStateMachine.json,Generic Source,,,Fixed Source,,16
